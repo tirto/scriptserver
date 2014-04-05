@@ -1,0 +1,1 @@
+chgrp www-data *

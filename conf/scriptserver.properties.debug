@@ -1,0 +1,11 @@
+log4php.rootLogger=debug, R
+
+log4php.appender.R=LoggerAppenderRollingFile
+log4php.appender.R.File=/home/aaametrics/logs/scriptserver.log
+
+log4php.appender.R.MaxFileSize=1500KB
+# Keep one backup file
+log4php.appender.R.MaxBackupIndex=3
+
+log4php.appender.R.layout=LoggerLayoutPattern
+log4php.appender.R.layout.ConversionPattern="%d{ISO8601} [%p] %c:%L - %m %n"

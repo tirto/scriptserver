@@ -5,8 +5,6 @@ purpose:
   
 directories:
 - conf
-    metrics.go.aaa.com: web server config (install to /etc/apache2/sites-enabled)
-    metrics.go.aaa.com-ssl: web server ssl config (install to /etc/apache2/sites-enabled)
     scriptserver.properties: log4php properties file
     dbetl.properties: log4php properties file
     logrotate.conf: logrotate config file

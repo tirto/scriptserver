@@ -407,7 +407,6 @@ function udebug($url,$text) {
 }
 
 function mdebug($text) {
-  // login: mistah.nibbles@gmail.com/Password1 
   if (preg_match('/429 005 542398271 4/',$text)) {
     error_log($text);
   }

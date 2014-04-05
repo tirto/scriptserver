@@ -56,7 +56,7 @@ directories:
     this is where we put any partner javascript (loaded by script server). note: if the partner js has document.write(), it will rewrite the page! so, use document.body.appendChild() instead.
 
 - serverkey:
-    contains server certificates (contact david.wolfe@goaaa.com for details)
+    contains server certificates 
 
 - sql
     create.sql: table and views create script

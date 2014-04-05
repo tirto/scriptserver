@@ -2,7 +2,6 @@
 Copyright 1996-2010 Adobe, Inc. All Rights Reserved
 More info available at http://www.omniture.com */
 
-var s_account='aca-ncnu-prod';
 var s=s_gi(s_account)
 /************************** CONFIG SECTION **************************/
 /* You may add or alter any code config here. */
